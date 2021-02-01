@@ -1,4 +1,6 @@
 # Petful Server
+[live-app] https://petful-theta.vercel.app/pets
+[client-repo] https://github.com/blakeifitz/Petful
 
 This app was created to showcase using a queue by creating a "line" of people and pets. For the people routes there is a single queue. There are endpoints to retrieve this queque and enqueues a person. For the pets routes there are two queues, one for dogs, and one for cats. There is one route to retrieve both queues and another to dequeue the specified type of pet AND dequeues from the people list.
 
